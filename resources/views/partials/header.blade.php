@@ -1,6 +1,11 @@
 <header>
   <section>
-    <div class="bluebar"></div>
+    <div class="bluebar">
+      <section class="container">
+        <span>DC POWER VISA</span>
+        <span>ADDITIONAL DC SITES</span>
+      </section>
+    </div>
   </section>
   <section class="container">
     <div class="row">

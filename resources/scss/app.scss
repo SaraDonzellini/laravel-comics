@@ -17,6 +17,8 @@ li.search {
 div.bluebar {
   height: 25px;
   background-color: $main-color;
+  color: white;
+  text-align: end;
 }
 
 div.box-logo img{
@@ -83,6 +85,10 @@ ul.d-flex li {
 section.wrapper{
   background-image: url('../assets/img/footer-bg.jpg');
   color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px;
+  overflow: hidden;
 }
 
 div.my-container ul li {
@@ -99,7 +105,6 @@ div.my-container ul li {
 }
 
 .footer-logo{
-  overflow: hidden;
   object-position: 0px -50px;
 }
 
