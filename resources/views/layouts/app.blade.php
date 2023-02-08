@@ -20,7 +20,7 @@
 <main>
     @yield('main-content')
 </main>
-
+    @include('partials.FOOTER')
 </body>
 
 </html>
