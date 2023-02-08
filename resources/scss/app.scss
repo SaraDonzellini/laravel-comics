@@ -1,12 +1,28 @@
 @import '~bootstrap/scss/bootstrap';
 
 
+$main-color : #0282f9;
+
 ul li{
   font-weight: bold;
   list-style-type: none;
   padding: 1rem
 };
 
+li.search {
+  padding-left: 4rem;
+}
+
+div.bluebar {
+  height: 25px;
+  background-color: $main-color;
+}
+
 div.box-logo img{
   width: 80px;
+}
+
+div.jumbotron {
+  height: 400px;
+  background-image: url('../assets/img/jumbotron.jpg');
 }

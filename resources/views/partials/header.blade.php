@@ -1,4 +1,7 @@
 <header>
+  <section class="wrapper">
+    <div class="bluebar"></div>
+  </section>
   <section class="container">
     <div class="row">
       <div class="col-12 d-flex justify-content-between">
@@ -17,7 +20,7 @@
             <li>FANS</li>
             <li>NEWS</li>
             <li>SHOP</li>
-            <li class="search">Search<i class="fa-solid fa-magnifying-glass"></i></li>
+            <li class="search">Search <i class="fa-solid fa-magnifying-glass"></i></li>
           </ul>
         </div>
       </div>
