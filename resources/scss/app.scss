@@ -7,7 +7,7 @@ $secondary-color: #1c1c1c;
 ul li{
   font-weight: bold;
   list-style-type: none;
-  padding: 1rem
+  padding: 1rem;
 };
 
 li.search {
@@ -33,7 +33,105 @@ div.wrapper-comics{
   color: white;
 }
 
+p.bluebox{
+  background-color: $main-color;
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  position:relative;
+  bottom:20px;
+}
+
 div.little-box {
-  width: 150;
-  height: 150;
+  width: 170px;
+  height: 170px;
+  margin-bottom: 3rem;
+  margin-top: 3rem;
+  
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+
+  }
+}
+
+.bluebutton{
+  background-color: $main-color;
+  font-size: 1.5rem;
+  // font-weight: bold;
+  text-align: center;
+  width: 250px;
+  margin: 3rem auto;
+}
+
+.blueband{
+  background-color: $main-color;
+  height: 200px;
+  color: white;
+}
+
+ul.d-flex li {
+  margin-top: 3rem;
+  img{
+    
+    height: 30%;
+  }
+}
+
+section.wrapper{
+  background-image: url('../assets/img/footer-bg.jpg');
+  color: white;
+}
+
+div.my-container ul li {
+  padding: 0;
+  font-size: smaller;
+  font-weight: 200;
+}
+
+.footer-wrapper{
+  height: 8rem;
+  background-color: #303030;
+  color: white;
+  z-index: 2;
+}
+
+.footer-logo{
+  overflow: hidden;
+  object-position: 0px -50px;
+}
+
+.footer-flex{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.social {
+  margin-top: 2rem;
+
+  span {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: #0282f9;
+    vertical-align: baseline;
+
+  }
+
+  img {
+    padding-left: 1rem;
+  }
+}
+
+button{
+  margin-top: 2rem;
+  padding: 1rem;
+  text-transform: uppercase;
+  background-color: transparent;
+  color: white;
+  font-size: large;
+  border: 3px solid #0282f9;
 }

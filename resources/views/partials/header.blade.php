@@ -1,5 +1,5 @@
 <header>
-  <section class="wrapper">
+  <section>
     <div class="bluebar"></div>
   </section>
   <section class="container">
@@ -9,7 +9,7 @@
           <img src="{{ Vite::asset('resources/assets/img/dc-logo.png')}}" alt="Logo">
         </div>
         <div class="nav-menu">
-          <ul class="m-4 d-flex">
+          <ul class=" d-flex">
             <li>CHARACTERS</li>
             <li>COMICS</li>
             <li>MOVIES</li>
